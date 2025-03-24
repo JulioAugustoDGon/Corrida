@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto p5</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div id="fundo">
+            <div id="semifundo">
+                <header>
+                    <h1>Hitles vs Osama: O maior vilão da história</h1>
+                </header>
+                <div class="caixaregras">
+                    <button id="botao1">Clique aqui para ver as regras</button>
+                    <div id="conteudo">
+                        <h2>Regras:</h2>
+                        <ul>
+                            <li>O objetivo do jogo é alcançar a linha de chegada primeiro.</li>
+                            <li>Hitler (na parte superior): pressione "L" para que ela se mova.</li>
+                            <li>Osama (na parte inferior): pressione "A" para que ele se mova.</li>
+                            <li>O jogo começa ao clicar na imagem</li>
+                            <li id="mensagemsecreta">"Caramba, que pinto enorme" by Peter Griffin</li>
+                            <button id="botao2">Fechar regras</button>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="jogo">
+            <img src="xRl8YsArDg8-HD.jpg" id="inicial">
+            <img src="hitler.png" id="futaba">
+            <img src="osama.png" id="joker">
+            <img src="grama.png" id="final">
+        </div>
+        
+    </main>
+
+    <audio src="Osama Bin Laden vs Adolf Hitler.mp3"  controls autoplay loop;></audio>
+
+    <footer>
+        <p>Projeto desenvolvido por <a href="https://github.com/JulioAugustoDGon/" target="_blank" rel="external">Julio Gonçalves</a></p>
+    </footer>
+    
+    <script src="sketch.js"></script>
+</body>
+</html>
